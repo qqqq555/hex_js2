@@ -60,7 +60,7 @@ body {
   margin: 0 0.625rem 1.25rem 0;
 }
 .btn-type:hover,
-.btn-type:active {
+.btn-type.active {
   background: #f8d45a;
 }
 @media (max-width: 767px) {
@@ -164,4 +164,7 @@ body {
 .fa-caret-down {
   top: 9px;
   right: -15px;
+}
+.sort-advanced i{
+    cursor: pointer;
 }
